@@ -1,0 +1,242 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Montserrat:wght@300;400;700&family=Poppins&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    /* Box-sizing Used by the browser to calculate the widths and heights of the elements */
+    box-sizing: border-box;
+}
+/* header style */
+header{
+    margin-top: 30px 0px 30px 0px;
+    
+}
+.logo{
+    color: black;
+    font-family: Poppins;
+    font-size: 1.5em;
+    font-weight: 700;
+    position: relative;
+    left: 150px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    right: 150px;
+}
+ul li a {
+    font-family: Poppins;
+    font-size: 1.0em;
+    font-weight:bold;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+/* End header style */
+
+
+.influencer{
+    display: flex;
+}
+.influencer-containet{
+    width: 50%;
+    padding-left: 10%;
+}
+.influencer-detail{
+    margin: 30px 0px 30px 0px;
+}
+.influencer-containet h1{
+    margin-bottom: 0px;
+}
+.influencer-title{
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: Poppins;
+}
+.influencer-containet img{
+    width: 70%;
+    margin-bottom: 0px;
+}
+.influencer-button{
+    color: pink;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Poppins;
+    text-decoration: none;
+    background-color: #001a33;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 0px;
+}
+
+
+/* Collection Style */
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    margin-left: 40px;
+
+}
+.header-title{
+    margin: 5px;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 28px;
+}
+
+.collection-item{
+    width: 350px;
+    height: 460px;
+    /* padding: 17px; */
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.collections .collection-banner img{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+/* Rating style */
+.hot-color{
+    color: orange;
+}
+.rating-info{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.fas.fa-star.filled{
+    color: orange;
+}
+.fas.fa-star-half-alt.empty{
+    color: orange;
+}
+.collection-button{
+    /* background-color: blue; */
+    float: right;
+    text-align: end;
+}
+.tiny-button{
+        text-align: end;
+        color: #001a33;;
+        padding: 10px 40px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Poppins;
+        text-decoration: none;
+        cursor: pointer;
+        margin-top: 0px;   
+}
+/* End Rating style */
+
+
+
+
+
+
+    .featured{
+        /* margin-left: 20px; */
+        height: 350px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .featured-image{
+        margin-left: 150px;
+    }
+    .featured-container{
+        margin-left: 30px;
+    }
+    .featured img{
+        width: 350px;
+        height: 250px;
+    }
+    .featured-title{
+        color: black;
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .featured-button{
+        color: pink;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Poppins;
+        text-decoration: none;
+        background-color: #001a33;
+        cursor: pointer;
+        margin-top: 0px;
+    }
+    
+
+
+
+
+
+
+
+footer{
+    background-color: #0A0826;
+}
+.footer-details{
+    text-align: center;
+    color: pink;
+    font-family: Poppins;
+    padding: 40px;
+}
+.footer-header{
+    margin-bottom: 10px;
+}
+.footer-socialmedia{
+    text-align: center;
+    margin-top: 20px;
+}
+.fas {
+    padding: 8px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fab {
+    padding: 8px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa-instagram {
+    background-color: #433d3d;
+    color: white;
+  }
+.fa-basketball-ball {
+    background-color: #433d3d;
+    color: white;
+  }
+.fa-twitter {
+    background-color: #433d3d;
+    color: white;
+  }
+.fa-youtube {
+    background-color: #433d3d;
+    color: white;
+
+}
+
+/* header */
+
+/* End header */
